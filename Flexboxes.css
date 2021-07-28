@@ -1,0 +1,36 @@
+#content 
+{
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .box 
+  {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #content1 
+  {
+    width: auto;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .box1 
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+  img
+  {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
